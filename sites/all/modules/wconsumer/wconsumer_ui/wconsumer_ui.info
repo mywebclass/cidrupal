@@ -1,0 +1,7 @@
+name =  "Web Consumer UI"
+description = User Interface for managing and controlling Web Consumer Manager
+package = "wconsumer"
+core = 7.x
+dependencies[] = "wconsumer"
+files[] = wconsumer_ui.test
+configure = admin/config/services/wconsumer_ui
